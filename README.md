@@ -59,10 +59,6 @@ int main() {
 		cout << "[The worker is impressed with your choice and gifts you a free candle]\n";
 		this_thread::sleep_for(chrono::milliseconds(2000));
 
-		// For loop to find gift candle
-		for (string c = 0; c < maxCandle; c) {
-			cout << "Worker: here is the " << inv[c] << "candle." << endl;
-		}
 
 		// more fun dialouge just cause why not?
 		cout << "[Would you like to ask for help? Yes or No?]\n>>";
